@@ -16,7 +16,7 @@ To regenerate after libvips updates:
 """
 
 from __future__ import annotations
-from typing import Dict, List, Optional, Tuple, TypeVar, Union, overload
+from typing import Dict, List, Optional, Union
 
 # Exception classes
 class Error(Exception): ...

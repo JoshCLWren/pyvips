@@ -22,8 +22,6 @@ This approach follows the existing pattern used for:
 - Documentation generation (pyvips.Operation.generate_sphinx_all())
 """
 
-import typing
-from typing import Any, Optional, Union
 
 import pyvips
 from pyvips import (
@@ -32,7 +30,6 @@ from pyvips import (
     type_map,
     type_from_name,
     nickname_find,
-    at_least_libvips,
 )
 from pyvips import ffi, Error
 from pyvips.voperation import _OPERATION_DEPRECATED
